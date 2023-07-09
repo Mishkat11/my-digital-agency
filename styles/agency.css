@@ -1,0 +1,19 @@
+*{margin: 0%;padding: 0%;}
+                          /* Nav section  */
+.nav-container{
+    display: flex; align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+}
+.menus{
+    list-style: none;
+    display: flex; 
+}
+
+.box{
+    padding-left: 25px; color: white; 
+    cursor: pointer;
+}
+.box:hover {
+    color: aqua;
+}
