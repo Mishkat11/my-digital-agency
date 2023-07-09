@@ -1,19 +1,74 @@
-*{margin: 0%;padding: 0%;}
-                          /* Nav section  */
-.nav-container{
-    display: flex; align-items: center;
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Nav section  */
+.nav-container {
+    display: flex;
+    align-items: center;
     justify-content: space-around;
     background-color: gray;
 }
-.menus{
+
+
+.menus {
     list-style: none;
-    display: flex; 
+    display: flex;
 }
 
-.box{
-    padding-left: 25px; color: white; 
+.box {
+    padding-left: 25px;
+    color: white;
     cursor: pointer;
 }
+
 .box:hover {
     color: aqua;
+
+}
+
+/* background pic section  */
+.banner-container {
+    height: 100vh;
+    width: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../image/background.jpg');
+
+
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* display: flex;
+        align-items: center */
+
+
+}
+
+.banner-info {
+    padding-top: 50vh;
+}
+
+.banner-h {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.primary-c {
+    color: rgb(233, 47, 47);
+}
+.banner-p{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+.btn{
+    border: 0px;
+    /* border-radius: 4px; */
+    padding: 10px;
+    font-size: 12px;
+}
+.bg-primary{
+    background-color: rgb(233, 47, 47);
+    color: white;
 }
