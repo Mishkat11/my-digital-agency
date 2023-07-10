@@ -64,11 +64,72 @@
 }
 .btn{
     border: 0px;
-    /* border-radius: 4px; */
+    border-radius: 14px;
     padding: 10px;
     font-size: 12px;
 }
 .bg-primary{
     background-color: rgb(233, 47, 47);
     color: white;
+}
+
+/* service section  */
+
+.service-container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),url('../image/footer-bg.png'); 
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;align-items: center;
+    padding: 20px;
+    
+}
+.service-img{
+
+    width: 100px;}
+.service-box{
+background-color: white;
+color: black;
+padding: 20px;
+width: 180px;
+height: 180px;
+border-radius: 10px;
+text-align: center;
+
+}
+.service-para{
+    width: 50%;
+    margin-bottom: 15px;
+}
+.two-box-container{
+    display: flex; gap: 5px;
+    margin-top: 4px;
+    
+}
+.service-btn{
+    border: 0px;
+    border-radius: 15px;
+    padding:15px ;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.service-head{
+    font-size: 45px; margin-bottom: 30px;
+}
+.author-container{
+    display: flex; align-items: center; 
+    gap: 20px;
+}
+.author-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-profile{
+    display: flex;
+    align-items: center; gap: 5px;
+    border-right: 2px solid red; 
+    padding: 20px;
 }
